@@ -1,1 +1,1 @@
-Роман Потехин пидар
+“Welcome to RESIN, where artistry meets innovation at the intersection of Katttanagatari and Deseased. Immerse yourself in a world where creativity knows no bounds, where every pixel pulsates with passion and every design tells a story. Explore a digital realm that transcends imagination, where Katttanagatari and Deseased unite to redefine the very essence of visual expression. Enter RESIN, where the ordinary transforms into the extraordinary, and inspiration awaits at every click.”
