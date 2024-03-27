@@ -108,20 +108,21 @@ img {
   font-style: normal;
 }
 
-.header{
-  padding: 30px 0 120px 0 ;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 100px;
-}
+/* Container
+============================== */
 
 .container {
   max-width: 1230px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+
+/* Header
+============================== */
+
+.header{
+  padding: 30px 0 120px 0 ;
 }
 
 .header__container {
@@ -132,7 +133,7 @@ img {
 
 .logo {
   font-family: var(--font-family);
-  font-weight: 900;
+  font-weight: 400;
   font-size: 22px;
   color: var(--main);
   }
@@ -178,18 +179,22 @@ img {
   background: var(--main);
 }
 
+
+/* Hero
+============================== */
+
 .hero__box{
   inline-size: 500px;
   overflow-wrap: break-word;
 }
 
 .hero__box-hello {
-  font-family: var(--font4);
-  font-weight: 800;
+  font-family: 'LeagueSpartan';
   font-size: 60px;
+  font-weight: 800;
   line-height: 120%;
   text-transform: uppercase;
-  color: var(--main)
+  color: var(--main);
 }
 
 .hero__box-desrc{ 
@@ -200,22 +205,43 @@ img {
   margin-bottom: 69px;
 }
 
+.hero-square__box {
+  width: 728px;
+  height: 571px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
 
-
-
-
-
-
+  padding: 85px 35px 85px 35px;
+  background-color: var(--second);
+  border-radius: 20px;
+}
 
 .hero__photo {
-    position: static;
   width: 454.5px;
   height: 571px;
 }
 
 
+/* About
+============================== */
+
+.about__container{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 150px;
+  
+}
 
 
+.about__title {
+  color: var(--dark-text);
+  font-family: var(--font-family);
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 42px;
+  padding-bottom: 70px;
+}
 
 
 
