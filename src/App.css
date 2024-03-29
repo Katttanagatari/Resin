@@ -243,6 +243,47 @@ img {
   padding-bottom: 70px;
 }
 
+/* CardLine
+============================== */
+
+.card {
+  margin-bottom: 100px;
+}
+
+/* InfoBlock
+============================== */
+
+.info__box {
+  width: 591.25px;
+  height: 384px;
+  background-color: var(--dark-text);
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

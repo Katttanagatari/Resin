@@ -1,5 +1,6 @@
-import {AboutBtn} from './components/about-btn/component'
-import {HeroBtn} from './components/hero-btn/component';
+import {VacancyCard} from './components/vacancy card/component'
+import {AboutBtn} from './components/btn/about-btn/component'
+import {HeroBtn} from './components/btn/hero-btn/component';
 import './App.css';
 import hero_photo from './components/img/hero_photo.png'
 import React from 'react';
@@ -64,10 +65,39 @@ function AboutComponent() {
         <div className='about__title'>How many of us?</div>
         <div className='about__engineer'>
           <AboutBtn text = 'Backend Engineer >'/>
-          <AboutBtn text = 'UX/UI designer'/>
+          <AboutBtn text = 'UX/UI designer >'/>
         </div>
       </div>
-    </section >
+    </section>
+  )
+}
+
+function CardLine() {
+  return(
+    <section className="Card">
+      <div className="container header__container">
+      <VacancyCard src='programmer' number={14}/>
+      <VacancyCard src='artist' number={5}/>
+      <VacancyCard src='artist' number={5}/> 
+      <VacancyCard src='programmer' number={14}/>
+      <VacancyCard src='artist' number={5}/> 
+      <VacancyCard src='programmer' number={14}/>
+      </div>
+    </section>
+  )
+}
+
+function InfoBlock() {
+  return (
+    <section className='info'>
+      <div className="container">
+        <div className="info__box">
+          <img src="" alt="" className="info__img" />
+          <div className="info__title">How to choose the right customer?</div>
+          <div className="info__desrc">Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue nibh sit amet </div>
+        </div>
+      </div>
+    </section>
   )
 }
 
@@ -79,7 +109,8 @@ function App() {
       <HeaderComponent />
       <MainComponent />
       <AboutComponent />
-
+      <CardLine />
+      <InfoBlock />
     </>
   );
 }
