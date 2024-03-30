@@ -1,6 +1,6 @@
 import {InfoCard} from './components/info_card/component';
 import {InfoBtn} from './components/btn/info-btn/components'
-import {VacancyCard} from './components/vacancy card/component'
+import {VacancyCard} from './components/vacancy_card/component'
 import {AboutBtn} from './components/btn/about-btn/component'
 import {HeroBtn} from './components/btn/hero-btn/component';
 import './App.css';
