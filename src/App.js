@@ -1,7 +1,10 @@
+import {InfoCard} from './components/info_card/component';
+import {InfoBtn} from './components/btn/info-btn/components'
 import {VacancyCard} from './components/vacancy card/component'
 import {AboutBtn} from './components/btn/about-btn/component'
 import {HeroBtn} from './components/btn/hero-btn/component';
 import './App.css';
+import info_bg from './components/img/info__bng.png'
 import hero_photo from './components/img/hero_photo.png'
 import React from 'react';
 
@@ -41,12 +44,8 @@ function MainComponent() {
               <div className='hero__left'>
                 <div className="hero-square__box">
                   <h1 className='visually-hidden'>Schedule ceremony tours site</h1>
-                  <div className='hero__box'>
                     <div className='hero__box-hello'>Schedule ceremony site tours</div>
-                  </div>
-                  <div className='hero__box'>
                     <p className='hero__box-desrc'>Personally I&nbsp;could eat pizza for every meal for the rest of&nbsp;my&nbsp;life. Especially a&nbsp;buffalo chicken pizza!</p>
-                  </div>
                   <HeroBtn />
                 </div>
               </div>
@@ -90,11 +89,27 @@ function CardLine() {
 function InfoBlock() {
   return (
     <section className='info'>
-      <div className="container">
+      <img src={info_bg} alt="" className="info__bg" />
+      <div className="container info__container">
         <div className="info__box">
-          <img src="" alt="" className="info__img" />
-          <div className="info__title">How to choose the right customer?</div>
-          <div className="info__desrc">Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue nibh sit amet </div>
+          <InfoCard
+          title={'How to choose the right customer?'}
+          descr={'Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue nibh sit amet '}
+          />
+        </div> 
+        <div className="info__btn">
+          <InfoBtn number={1} 
+          title={'Inspired Magazine Design'} 
+          descr={'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. '}
+          toggle_button={'enable'}/>
+          <InfoBtn number={2} 
+          title={'Summer Catalog'} 
+          descr={'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. '}
+          toggle_button={'disable'}/>
+          <InfoBtn number={3} 
+          title={'Fashion Store Branding'} 
+          descr={'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. '}
+          toggle_button={'disable'}/>
         </div>
       </div>
     </section>
@@ -111,6 +126,7 @@ function App() {
       <AboutComponent />
       <CardLine />
       <InfoBlock />
+
     </>
   );
 }
