@@ -1,0 +1,80 @@
+/* InfoBlock
+============================== */
+
+.info {
+    position: relative;
+  }
+  
+  .info__bg {
+    position: absolute;
+    z-index: -1;
+    top: -150px;
+  }
+  
+  .info__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .info__box {
+    width: 591.25px;
+    height: 384px;
+    background-color: #EEFBFF;
+    border-radius: 20px;
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 35px;
+  }
+  
+  .info__title {
+    width: 395px;
+    margin: 20px 0;
+  
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+  
+    color: var(--dark-text);
+    font-family: var(--font-family);
+  }
+  
+  .info__desrc {
+    width: 370px;
+  
+    color: var(--dark-text);
+    font-family: var(--font-family);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 140%;
+  }
+  
+  .info__number-enable {
+    width: 591.25px;
+    height: 180px;
+    background-color: #EEFBFF;
+    border-radius: 20px 20px 10px 10px;
+  
+    text-align: start;
+    padding: 25px 55px;
+    position: relative;
+  }
+  
+  .info__number-disable {
+    width: 591.25px;
+    height: 180px;
+  
+  
+    border-radius: 20px 20px 10px 10px;
+    text-align: start;
+    padding: 25px 55px;
+    position: relative;
+  
+  }
+  
+  .info__btn {
+    display: flex;
+    flex-direction: column;
+  }
+  

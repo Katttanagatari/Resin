@@ -1,48 +1,20 @@
 import './App.css';
+import { Header } from './components/Header/component';
+import { Main } from './components/Main/component';
+import { OurTeam } from './components/Team/component';
+import { OurTeamsCard } from './components/Teams-card/component';
+import { Project } from './components/Project/component';
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>
-       RESIN
-      </h1>
-      <h1>
-       RESIN
-      </h1>
-      <h1>
-       RESIN
-      </h1>
-      <h1>
-       RESIN
-      </h1>
-      <h1>
-       RESIN
-      </h1>
-      <h1>
-       RESIN
-      </h1>
-      <h1>
-       RESIN
-      </h1>
-      <h1>
-       RESIN
-      </h1>
-      <h1>
-       RESIN
-      </h1>
-      <h1>
-       RESIN
-      </h1>
-      <h1>
-       RESIN
-      </h1>
-      <h1>
-       RESIN
-      </h1>
-      <h1>
-       RESIN
-      </h1>
-    </div>
+    <>
+      <Header />
+      <Main />
+      <OurTeam />
+      <OurTeamsCard />
+      <Project />
+    </>
   );
 }
 

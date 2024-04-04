@@ -1,0 +1,17 @@
+/* About
+============================== */
+
+.about__container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;    
+}
+  
+.about__title {
+    color: var(--dark-text);
+    font-family: var(--font-family);
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42px;
+    padding-bottom: 70px;
+}
