@@ -1,5 +1,5 @@
-import card__artist from '../Img/card_artist.svg'
-import card__programmer from '../Img/card_programmer.svg'
+import card__artist from '../../Img/card_artist.svg'
+import card__programmer from '../../Img/card_programmer.svg'
 import './styles.css' 
 
 export const VacancyCard = ({src, number}) => {

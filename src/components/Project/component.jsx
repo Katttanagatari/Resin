@@ -9,11 +9,14 @@ export const Project = () => {
         <section className='info'>
           <img src={info_bg} alt="" className="info__bg" />
           <div className="container info__container">
-            <div className="info__box">
+            <div className="info-box">
               <InfoCard
               title={'How to choose the right customer?'}
               descr={'Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue nibh sit amet '}
               />
+              <div className="info-card__smaller">
+                
+              </div>
             </div> 
             <div className="info__btn">
               <InfoBtn number={1} 

@@ -1,5 +1,5 @@
 import './styles.css'
-import {VacancyCard} from '../Vacancy-card/component'
+import {VacancyCard} from './Vacancy-card/component'
 
 export const OurTeamsCard = () => {
     return(
