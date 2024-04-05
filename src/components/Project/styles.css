@@ -54,3 +54,37 @@
     border-radius: 20px;
     background: #EEFBFF;
   }
+
+
+.info-card__smaller {
+  display: flex;
+
+}
+
+.info-card__text{
+  padding: 35px 0;
+}
+
+.info-card__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-card__title{
+  color: var(--dark-text);
+  font-family: var(--font-family);
+
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+.info-card__descr {
+  font-family: var(--font-family);
+  color: var(--dark-text);
+
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+}

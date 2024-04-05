@@ -1,7 +1,9 @@
 import './styles.css'
 import info_bg from '../Img/info__bng.png'
+import info_card from '../Img/info-card__smaller.svg'
 import {InfoBtn} from '../Btn/btn-info/components'
 import {InfoCard} from '../Info_card/component'
+import {HeroBtn} from '../Btn/btn-hero/component'
 
 
 export const Project = () => {
@@ -15,7 +17,14 @@ export const Project = () => {
               descr={'Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue nibh sit amet '}
               />
               <div className="info-card__smaller">
-                
+                <img src={info_card} alt="" className="info-card__img" />
+                <div className="info-card__text">
+                  <div className="info-card__title">The unseen of spending three</div>
+                  <div className='info-card__container'>
+                    <div className="info-card__descr">Solomon Standard Time</div>
+                    <HeroBtn/>
+                  </div>
+                </div>
               </div>
             </div> 
             <div className="info__btn">
