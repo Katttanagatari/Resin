@@ -53,16 +53,17 @@
 
     border-radius: 20px;
     background: #EEFBFF;
+    display: flex;
   }
 
 
-.info-card__smaller {
-  display: flex;
-
+.info-card__img{
+  margin-left: 35px;
 }
 
 .info-card__text{
   padding: 35px 0;
+  margin-left: 25px;
 }
 
 .info-card__container {
@@ -87,4 +88,5 @@
   font-size: 17px;
   font-weight: 400;
   line-height: 20px;
+  margin-top: 10px;
 }
