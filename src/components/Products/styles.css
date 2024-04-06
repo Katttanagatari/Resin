@@ -12,6 +12,12 @@
 }
 
 .products__column {
-    display: flex;
-    
+    display: flex;  
+    position: relative;
+}
+
+.product__img {
+    position: absolute;
+    right: -29%;
+    top: -115%;
 }

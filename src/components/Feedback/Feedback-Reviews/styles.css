@@ -1,0 +1,88 @@
+.FeedBackReviews {
+    min-width: 348px;
+    width: 348px;
+    height: 272px;
+    border-radius: 20px;
+
+    background-color: var(--second);
+    padding: 25px;
+}
+
+.FeedBack__title{
+    display: flex;
+    width: 270px;
+    height: 56px;
+}
+
+.FeedBackReviews__img {
+    width: 56px;
+    height: 56px;
+}
+
+.FeedBackReviews__name {
+    margin: 16px 0 16px 10px;
+
+    font-size: 20px;
+    font-weight: 400;
+    
+    color: var(--dark-text);
+    font-family: var(--font-family);
+}
+
+.FeedBackReviews__name span {
+    font-size: 16px;
+    color: #9B9B9B;
+}
+
+.FeedBackReviews__descr {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 120%;
+
+    color: var(--dark-text);
+    font-family: var(--font-family);
+
+    margin: 25px 0;
+}
+
+.FeedBackReviews__job {
+    width: 104px;
+    height: 36px;
+    border-radius: 10px;
+    padding: 8px 15px 8px 15px;
+    display: flex;
+    justify-content: space-between;
+
+    background-color: var(--main);
+}
+
+#larger {
+    padding: 8px 4px;
+}
+
+.FeedBackReviews__job-circle{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+
+    background-color: #FF6584;
+    margin-top: 2px;
+    display: flex;
+}
+
+.FeedBackReviews__job-text {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;  
+
+    color: #fff;
+    font-family: var(--font-family);
+}
+
+#pink {
+    background-color: #FF6584;
+}
+
+#orange {
+    background-color: #FF7765;
+}

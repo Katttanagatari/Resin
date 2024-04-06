@@ -1,0 +1,43 @@
+.feedback {
+    margin: 120px 0;
+    position: relative;
+    display: flex;
+}
+
+.feedback__text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+
+.feedback__title {
+    font-family: var(--font-family);
+    color: var(--dark-text);
+
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42px;
+    width: 535px;
+    height: 84px;
+    
+}
+
+
+.feedback__arr-left {
+    transform: rotate(-180deg);
+    margin-right: 70px;
+
+}
+
+.feedback__cards {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.feedback__img {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}

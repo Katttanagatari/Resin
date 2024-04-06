@@ -1,3 +1,4 @@
+import product_img from '../Img/product_img.svg'
 import { ProductsItems } from './Products-items/component'
 import './styles.css'
 
@@ -6,7 +7,7 @@ return (
     <section className='products'>
         <div className="container products__container">
             <div className="products__title">What can we offer</div>
-            <div className="products__column">
+            <div className="products__column">  
                 <ProductsItems 
                     name={'Argentina'}
                     title={'Product Manager'}
@@ -22,6 +23,7 @@ return (
                     title={'Chief Data Officer'}
                     descr={'Lorem ipsum in the good ol’ days. We are just getting started.'}
                 />
+                <img src={product_img} alt="" className="product__img" />
             </div>
             <div className="products__column">
                 <ProductsItems 
