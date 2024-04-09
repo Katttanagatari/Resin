@@ -1,6 +1,6 @@
 import './styles.css'
-import info_bg from '../Img/info__bng.png'
-import info_card from '../Img/info-card__smaller.svg'
+import info_bg from '../../Img/info__bng.png'
+import info_card from '../../Img/info-card__smaller.svg'
 import {InfoBtn} from '../Btn/btn-info/components'
 import {InfoCard} from '../Info_card/component'
 import {HeroBtn} from '../Btn/btn-hero/component'

@@ -1,4 +1,4 @@
-import info_photo from '../Img/info_photo.jpeg'
+import info_photo from '../../Img/info_photo.jpeg'
 import './styles.css'
 
 export const InfoCard = ({title,descr}) => {

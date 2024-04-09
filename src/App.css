@@ -54,7 +54,7 @@ img {
 
 @font-face {
   font-family: 'SF Pro Display';
-  src: url("../src/components/Fonts/SFProDisplay-Regular.woff2") format('woff2');
+  src: url("/src/Fonts/SFProDisplay-Regular.woff2") format('woff2');
   font-display: swap;
   font-weight: 400;
   font-style: normal;
@@ -62,7 +62,7 @@ img {
 
 @font-face {
   font-family: 'SF Pro Display';
-  src: url("../src/components/Fonts/SFProDisplay-Medium.woff2") format('woff2');
+  src: url("/src/Fonts/SFProDisplay-Medium.woff2") format('woff2');
   font-display: swap;
   font-weight: 500;
   font-style: normal;
@@ -70,7 +70,7 @@ img {
 
 @font-face {
   font-family: 'SF Pro Display';
-  src: url("../src/components/Fonts/SFProDisplay-Semibold.woff2") format('woff2');
+  src: url("/src/Fonts/SFProDisplay-Semibold.woff2") format('woff2');
   font-display: swap;
   font-weight: 600;
   font-style: normal;
@@ -78,7 +78,7 @@ img {
 
 @font-face {
   font-family: 'HelveticaNeueCyr';
-  src: url("../src/components/Fonts/HelveticaNeueCyr_light.woff2") format('woff2');
+  src: url("/src/Fonts/HelveticaNeueCyr_light.woff2") format('woff2');
   font-display: swap;
   font-weight: 300;
   font-style: normal;
@@ -86,7 +86,7 @@ img {
 
 @font-face {
   font-family: 'Mulish';
-  src: url("../src/components/Fonts/Mulish-Medium.woff2") format('woff2');
+  src: url("/src/Fonts/Mulish-Medium.woff2") format('woff2');
   font-display: swap;
   font-weight: 500;
   font-style: normal;
@@ -94,7 +94,7 @@ img {
 
 @font-face {
   font-family: 'Mulish';
-  src: url("../src/components/Fonts/Mulish-Black.woff2") format('woff2');
+  src: url("/src/Fonts/Mulish-Black.woff2") format('woff2');
   font-display: swap;
   font-weight: 900;
   font-style: normal;
@@ -102,7 +102,7 @@ img {
 
 @font-face {
   font-family: 'LeagueSpartan';
-  src: url("../src/components/Fonts/LeagueSpartan-ExtraBold.woff2") format('woff2');
+  src: url("/src/Fonts/LeagueSpartan-ExtraBold.woff2") format('woff2');
   font-display: swap;
   font-weight: 800;
   font-style: normal;

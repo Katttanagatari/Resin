@@ -1,5 +1,5 @@
 import './styles.css'
-import ProductsItem_img from '../../Img/productsItem_img.png'
+import ProductsItem_img from '../../../Img/productsItem_img.png'
 
 export const ProductsItems = ({name,title,descr}) => {
 return(

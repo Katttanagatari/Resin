@@ -1,4 +1,4 @@
-import product_img from '../Img/product_img.svg'
+import product_img from '../../Img/product_img.svg'
 import { ProductsItems } from './Products-items/component'
 import './styles.css'
 

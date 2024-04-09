@@ -1,6 +1,6 @@
 import './styles.css'
 import { HeroBtn } from '../Btn/btn-hero/component'
-import img_hero from '../Img/hero_photo.png'
+import img_hero from '../../Img/hero_photo.png'
 
 export const Main = () => {
 return(

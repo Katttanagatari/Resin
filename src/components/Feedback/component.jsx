@@ -1,6 +1,6 @@
-import Arr from '../Img/Feedback_Arr.svg'
+import Arr from '../../Img/Feedback_Arr.svg'
 import { FeedBackReviews } from './Feedback-Reviews/component'
-import Img from '../Img/feedback_girl.svg'
+import Img from '../../Img/feedback_girl.svg'
 
 import './styles.css'
 

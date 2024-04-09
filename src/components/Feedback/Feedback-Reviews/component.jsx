@@ -1,7 +1,7 @@
-import men1 from '../../Img/men_1.png'
-import woman2 from '../../Img/woman_2.png'
-import woman3 from '../../Img/woman_3.png'
-import men4 from '../../Img/men_4.png'
+import men1 from '../../../Img/men_1.png'
+import woman2 from '../../../Img/woman_2.png'
+import woman3 from '../../../Img/woman_3.png'
+import men4 from '../../../Img/men_4.png'
 import './styles.css'
 
 export const FeedBackReviews = ({img,name,time,text,job}) => {
