@@ -31,7 +31,6 @@
 }
 
 .feedback__cards {
-    display: flex;
     gap: 20px;
     overflow: hidden;
 }
