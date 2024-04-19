@@ -1,0 +1,23 @@
+.products__container {
+    margin-top: 120px;
+}
+
+.products__title {
+    font-family: var(--font-family);
+    color: var(--dark-text);
+
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42px;
+}
+
+.products__column {
+    display: flex;  
+    position: relative;
+}
+
+.product__img {
+    position: absolute;
+    right: -29%;
+    top: -115%;
+}

@@ -1,38 +1,120 @@
-.App {
-  text-align: center;
+html {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
+.btn-reset {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+:root {
+  --main: #3F7C91;
+  --second: #E4F8FF;
+  --dark-text: #2F2F2F;
+  
+  --font-family: "SF Pro Display", sans-serif;
+  --second-family: "HelveticaNeueCyr", sans-serif;
+  --third-family: "Mulish", sans-serif;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url("/src/Fonts/SFProDisplay-Regular.woff2") format('woff2');
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url("/src/Fonts/SFProDisplay-Medium.woff2") format('woff2');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url("/src/Fonts/SFProDisplay-Semibold.woff2") format('woff2');
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: url("/src/Fonts/HelveticaNeueCyr_light.woff2") format('woff2');
+  font-display: swap;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url("/src/Fonts/Mulish-Medium.woff2") format('woff2');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url("/src/Fonts/Mulish-Black.woff2") format('woff2');
+  font-display: swap;
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LeagueSpartan';
+  src: url("/src/Fonts/LeagueSpartan-ExtraBold.woff2") format('woff2');
+  font-display: swap;
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* Container
+============================== */
+
+.container {
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+

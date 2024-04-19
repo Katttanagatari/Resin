@@ -1,0 +1,33 @@
+.info__box {
+    width: 591.25px;
+    height: 384px;
+    background-color: #EEFBFF;
+    border-radius: 20px;
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 35px;
+  }
+
+.info__title {
+    width: 395px;
+    margin: 20px 0;
+  
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+  
+    color: var(--dark-text);
+    font-family: var(--font-family);
+  }
+  
+  .info__desrc {
+    width: 370px;
+  
+    color: var(--dark-text);
+    font-family: var(--font-family);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 140%;
+  }

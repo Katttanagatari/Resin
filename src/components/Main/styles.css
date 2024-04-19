@@ -1,0 +1,38 @@
+/* Hero
+============================== */
+
+.hero__box-hello {
+    font-family: 'LeagueSpartan';
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: var(--main);
+    width: 500px;
+  }
+  
+  .hero__box-desrc{ 
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #bababa;
+    margin-bottom: 69px;
+    width: 400px;
+  }
+  
+  .hero-square__box {
+    width: 728px;
+    height: 571px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+  
+    padding: 85px 35px 85px 35px;
+    background-color: var(--second);
+    border-radius: 20px;
+  }
+  
+  .hero__photo {
+    width: 454.5px;
+    height: 571px;
+  }

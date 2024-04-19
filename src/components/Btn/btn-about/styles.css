@@ -1,0 +1,37 @@
+.about__btn {
+    border: 2px solid #3f7c91;
+    border-radius: 10px;
+    padding: 8px 32px;
+    width: 218px;
+    height: 36px;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.about__btn-text { 
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 17px;
+    color: #2f2f2f;
+}
+
+.active {
+    background-color: var(--main);
+    color: var(--second);
+}
+
+.about__btn:last-child {
+    margin-left: 100px;
+}
+
+@media (any-hover:hover) {
+    .about__btn:hover {
+      background-color: var(--main);
+    }
+
+    .about__btn:hover .about__btn-text {
+        color: var(--second);
+      }
+  }
