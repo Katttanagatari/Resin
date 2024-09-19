@@ -17,3 +17,5 @@ public class Main {
         System.out.println("Modified model names: " + String.join(", ", auto.getModelNames()));
     }
 }
+
+нг
